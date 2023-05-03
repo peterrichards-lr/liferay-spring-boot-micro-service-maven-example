@@ -1,0 +1,20 @@
+server:
+  port : 9090
+security:
+  oauth2:
+    resourceserver:
+      jwk:
+        jwk-set-uri: https://webserver-lctseuk-prd.lfr.cloud/o/oauth2/jwks
+management:
+  endpoints:
+    jmx:
+      exposure:
+        include: "health"
+liferay:
+  headless-api:
+    base-url: https://webserver-lctseuk-prd.lfr.cloud/o/headless-admin-user/v1.0
+    my-user-account: /my-user-account
+logging:
+  level:
+    root: INFO
+    com.liferay.samples.fbo.bank.accounts.interfaces.rest: DEBUG
