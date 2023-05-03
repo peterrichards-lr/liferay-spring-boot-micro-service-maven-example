@@ -9,5 +9,12 @@ This project can be added as a custom service to a Self Managed Liferay Experien
 
 See how the LCP.json and Dockerfile for more information on the configuration of the deployed custom service.
 
-## Local
+### Local
 It can run locally using `mvn spring-boot:run `
+
+## Fragments
+A collection of sample fragments can be found [here](https://github.com/peterrichards-lr/liferay-fragments/tree/main/user-account).
+
+It is also available as a deployable zip [here](/assets/user-account-fragments.zip)
+
+![Sample fragments](images/fragments-screenshot.png)
