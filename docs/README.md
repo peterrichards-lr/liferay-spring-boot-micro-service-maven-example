@@ -1,5 +1,5 @@
 # Liferay Spring Boot Microservice Example
-An example of how a Spring Boot Microservice can trust Liferay as an OAuth 2.0 Aithorisation Server and make use of the Liferay headless API using the provided JWT token.
+An example of how a Spring Boot Microservice can trust Liferay as an OAuth 2.0 Authorisation Server and make use of the Liferay headless API using the provided JWT token.
 
 It is based on Fabian Bouché's [Spring Boot Resource Server](https://github.com/fabian-bouche-liferay/spring-boot-sample) example.
 
